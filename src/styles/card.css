@@ -1,0 +1,26 @@
+.wrap-card {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 310px;
+}
+
+.img-item {
+    width: 310px;
+    height: 210px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.desc {
+    padding: 3px 7px;
+}
+
+.desc h1 {
+    text-align: left;
+    margin: 2px 0;
+}
+
+.desc p {
+    text-align: left;
+}

@@ -1,0 +1,9 @@
+.wrapper {
+    padding: 30px;
+    border: 1px solid red;
+}
+.dynamic-comp {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

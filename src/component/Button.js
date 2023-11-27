@@ -1,15 +1,10 @@
+import React from "react"
 import "../styles/button.css"
-function Button() {
-    // function handleClick() {
-    //     alert("halooo")
-    // }
 
-    const handleClick = () => {
-        alert("haiii")
-    }
+function Button({count, handleClick}) {
     
     return (
-        <button className="btn" onClick={handleClick}>Saya adalah tombol</button>
+        <button className="btn" onClick={handleClick}>Diklik {count} kali</button>
     )
 }
 
